@@ -22,7 +22,7 @@
     margin-bottom: 2rem;
 }
 
-.institutional__adress {
+.institutional__address {
     font-size: 1.5rem;
     line-height: normal;
     margin-bottom: 2rem;
@@ -46,4 +46,32 @@
 
 .institutional__video {
     width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    .institutional__contact-email {
+        display: inline-block;
+    }
+
+    .institutional__video {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institutional__content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .institutional__video {
+        align-self: flex-end;
+        width: 375px;
+    }
+
+    .institutional__contact-email {
+        display: block;
+    }
 }

@@ -26,3 +26,17 @@
 .call__button {
     width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+    .call {
+        background-image: url(../../assets/img/bg-intro.jpg);
+        background-size: cover;
+
+        padding-top: 8.25rem;
+    }
+
+    .call__title {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}

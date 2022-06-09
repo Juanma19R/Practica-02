@@ -29,3 +29,26 @@
     color: var(--font-ash-dark);
     font-weight: 700;
 }
+
+.about_us__img {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .about_us {
+        display: flex;
+    }
+    .about_us__content {
+        margin-right: 3rem;
+    }
+    .about_us__title {
+        text-align: left;
+    }
+    .about_us__text--division {
+        border-bottom: 1px solid var(--cinza-medio);
+        padding-bottom: 1.5rem;
+    }
+    .about_us__img {
+        display: block;
+    }
+}

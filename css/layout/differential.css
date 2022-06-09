@@ -30,13 +30,22 @@
 }
 
 .differential__item-clock {
-    background-image: url(../img/icono-reloj.png);
+    background-image: url(../../assets/icons/icono-reloj.png);
 }
 
 .differential__item-money {
-    background-image: url(../img/icono-dinero.png);
+    background-image: url(../../assets/icons/icono-dinero.png);
 }
 
 .differential__item-chemistry {
-    background-image: url(../img/icono-quimica.png);
+    background-image: url(../../assets/icons/icono-quimica.png);
+}
+
+@media screen and (min-width: 1024px) {
+    .differential {
+        background-color: var(--background-ash-light);
+    }
+    .differential__list {
+        justify-content: space-around;
+    }
 }

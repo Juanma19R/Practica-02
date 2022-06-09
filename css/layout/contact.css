@@ -17,6 +17,10 @@
     margin-bottom: 1.25rem;
 }
 
+.contact__text {
+    margin-bottom: 1.25rem;
+}
+
 .contact__button {
     color: var(--button-red);
     border-color: var(--button-red);
